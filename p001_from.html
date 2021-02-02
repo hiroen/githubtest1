@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <form action = "xxx.php">
+            テキストボックス<input type = "text" name = "text_nyuryoku01" size = "30" maxlength = "12" value = "最初から入ってる文字">
+            <p>
+                パスワード用テキストボックス(ボックスの中に入力した****もしくは・・・・に変わります)。
+                <input type = "password" name = "text_nyuryoku02" size = "30" maxlength = "12" value = "最初から入ってる文字">
+            <p>
+            選択肢用プルダウンメニュー
+            <select name = "sentakushi">
+                <option value = "sentaku01" selectes>選択肢1<option value = "sentahu02">選択肢２</select>
+            <p>
+            チェックボックス<br>
+            「checked」と記入した選択肢のボックスがチェックされて表示されます。<br>
+            <input type = "checkbox" name = "sentakushi" value = "sentaku_A">選択肢A
+            <input type = "checkbox" name = "sentakushi" value = "sentaku_B">選択肢B
+            <input type = "checkbox" name = "sentakushi" value = "sentaku_c">選択肢C
+            <p>
+            隠しフォームタグ<br>
+            ユーザーの目に触れず、valueの部分を変数としてプログラムへ受け渡す際に使われます。<br>
+            <input type = "hidden" name = "sentakushi02" value = "sentaku_x"> 選択肢X
+            <p>
+            アクションを有効にするボタン
+            <input type = "submit" name = "button01" value = "送信">
+            <p>
+            フォームに記入した内容を全て削除するボタン
+            <input type = "submit" name = "button02" value = "書き直し">
+            
+        </form>
+    </body>
+</html>
